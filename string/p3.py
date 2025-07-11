@@ -3,4 +3,5 @@
 s = "PythoNist 2"
 
 for char in s:
-    print(char)
+    if char.isupper():
+        
