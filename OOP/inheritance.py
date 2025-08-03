@@ -14,3 +14,11 @@ class SavingAccount(BankAccount):
 
 b2 = SavingAccount()
 b2.withdraw_money()
+
+class A:
+    X=5
+
+a1 = A()
+a2 = A()
+a1.x = 10
+print(a2.X)
